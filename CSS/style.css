@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list > * {
+  margin: 10px;
+}
+
+nav > ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+nav > ul > li {
+  margin: 0 10px;
+  list-style-type: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+form.deleteCommentForm {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+form.deleteCommentForm button {
+  border: none;
+  background: none;
+  font-size: 2rem;
+  line-height: 33px;
+}
+
+form.deleteCommentForm button:hover {
+  color: rgb(221, 37, 37);
+}
+
+.gallery-item .btn-delete {
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 30px;
+  flex-grow: 0;
+}
