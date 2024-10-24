@@ -1,0 +1,25 @@
+{
+    "name": "gragonvlad/vk",
+    "description": "Creating a messenger",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vk\\": "Application"
+        }
+    },
+    "authors": [
+        {
+            "name": "gragonvlad"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "components/jquery": "1.9.*"
+    },
+    "config": {
+        "allow-plugins": {
+            "robloach/component-installer": true
+        }
+    }
+}
